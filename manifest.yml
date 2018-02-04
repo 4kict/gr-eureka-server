@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-gr-discovery
+  random-route: true
+  memory: 750M
+  instances: 1
+  domain: cfapps.io
+  path: target/gr-eureka-server-0.0.1-SNAPSHOT.jar
